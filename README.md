@@ -43,16 +43,16 @@ Date-time module was used to deal with dates, times and time intervals in the lo
 Matplotlib library was used to incorporate graphical representation of the data of previous appointments of various doctors.
 
 D. IN-BUILT FUNCTIONS USED:
-•	Open(): This function opens a file, and returns it as a file object. 
-•	Close(): This function closes and open file. It's important to close an open file or else due buffering to a file may not show until we close the file.
-•	Int(): This function converts the specified value into an integer number. 
-•	Input(): This function allows the user to input some text or data for the specific variable. 
-•	Load(): This function of pickle module reads the pickled byte stream of one or more python objects from a file object. 
-•	Dump(): This function of pickle module serializes a python object and returns the bytes object. 
-•	Read(): Returns the read bytes in form of a string. Reads 'n' bytes, if no specified reads the entire file. 
-•	Write(): Inserts the string line in the text file. 
-•	Remove(): This function of OS module removes or deletes file path. 
-•	Rename(): This function of OS module renames a file.
+1. Open(): This function opens a file, and returns it as a file object. 
+2. Close(): This function closes and open file. It's important to close an open file or else due buffering to a file may not show until we close the file.
+3.	Int(): This function converts the specified value into an integer number. 
+4.	Input(): This function allows the user to input some text or data for the specific variable. 
+5.	Load(): This function of pickle module reads the pickled byte stream of one or more python objects from a file object. 
+6.	Dump(): This function of pickle module serializes a python object and returns the bytes object. 
+7.	Read(): Returns the read bytes in form of a string. Reads 'n' bytes, if no specified reads the entire file. 
+8.	Write(): Inserts the string line in the text file. 
+9.	Remove(): This function of OS module removes or deletes file path. 
+10.	Rename(): This function of OS module renames a file.
 
 E. USER-DEFINED FUNCTIONS:
 I.	login(): The login function ensures authentication by allowing only those employees whose credentials are in the employee.dat file to be able to sign in. It also displays a record of the login date and time after login is done successfully. We have also used tkinter to make the login interface visually pleasing.
